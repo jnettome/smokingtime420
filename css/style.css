@@ -1,0 +1,40 @@
+.container {
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 2.4rem 1rem;
+}
+
+.logo {
+    width: 240px;
+    height: auto;
+    margin: 0 auto;
+    filter: invert(1);
+    margin-bottom: 2rem;
+}
+
+:root {
+    --soundcloud-color: #ff3300;
+    --twitch-color: #9146FF;
+    --instagram-color: #E4405F;
+    --facebook-color: #1877F2;
+}
+
+body {
+    background: url('/img/logo-fb.jpg') no-repeat;
+    background-size: 300%;
+    backdrop-filter: blur(30px);
+}
+.embed-radio {
+    /* border */
+}
+
+.social-links {
+    display: flex;
+    flex-wrap: wrap;
+}
+.social-links a {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+}
