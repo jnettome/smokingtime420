@@ -25,16 +25,44 @@ body {
     background-size: 300%;
     backdrop-filter: blur(30px);
 }
+
 .embed-radio {
-    /* border */
+    background: rgba(255, 255, 255, .2);
+    padding: 20px;
+    border-radius: 8px;
 }
 
 .social-links {
     display: flex;
     flex-wrap: wrap;
+    color: white;
+    justify-content: space-evenly;
+
+    max-width: 400px;
+    margin: 2rem auto;
 }
 .social-links a {
     display: inline-block;
-    width: 80px;
-    height: 80px;
+    width: 50px;
+    height: 50px;
+}
+
+.social-links svg {
+    fill: white;
+}
+
+.social-links a.instagram:hover svg {
+    fill: var(--instagram-color);
+}
+
+.social-links a.facebook:hover svg {
+    fill: var(--facebook-color);
+}
+
+.social-links a.twitch:hover svg {
+    fill: var(--twitch-color);
+}
+
+.social-links a.soundcloud:hover svg {
+    fill: var(--soundcloud-color);
 }
