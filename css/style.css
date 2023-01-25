@@ -21,9 +21,9 @@
 }
 
 body {
-    background: url('/img/logo-fb.jpg') no-repeat;
-    background-size: 300%;
-    backdrop-filter: blur(30px);
+    background: url('/img/bg.jpg') no-repeat;
+    background-size: cover;
+    /* backdrop-filter: blur(30px); */
 }
 
 .embed-radio {
